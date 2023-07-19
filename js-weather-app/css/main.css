@@ -1,0 +1,36 @@
+body {
+    color: #2218A7;
+    background-color: #197DEE25;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0;
+}
+
+main {
+    padding-block: 2rem;
+    width: 60%;
+    margin: auto;
+}
+
+header {
+    background-color: #197DEE75;
+    padding-inline: 7rem;
+    padding-block: 2rem;
+    align-items: center;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+#display_view {
+    display: none;
+    margin: 2rem 0 0 0;
+    background-color: #197DEE75;
+    padding: 0.6rem;
+}
+
+h3::after {
+    content: ':';
+}

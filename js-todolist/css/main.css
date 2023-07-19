@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,600;1,400;1,700&display=swap');
+
+*
+{
+    font-family: barlow;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: auto;
+    margin: 0;
+}
+
+body > main {
+    display: flex;
+    flex-direction: column;
+}
+
+main
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex:  1 1 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label::after {
+    content: ':';
+}
+
+body main > div {
+    width: 25.5%;
+}
+
+body main div span {
+    width: 100%;
+}
+
+body main div span::after {
+    content: ':';
+}
+
+#to_do_view {
+    font-family: 'Barlow', sans-serif;
+}
+
+main {
+    color: #008080;
+    font-weight: 600;
+    /* background-color: white;/ */
+}
+
+body {
+    color: white;
+    background-color: #00808027;
+}
+
+header, footer {
+    background-color: #008080;
+}

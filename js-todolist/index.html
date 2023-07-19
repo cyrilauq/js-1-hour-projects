@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+
+    <link rel="stylesheet" href="css/main.css" />
+
+    <script src="js/index.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Javascript - To Do List</h1>
+    </header>
+    <main>
+        <div id="forms">
+            <form id="add_to_do_form">
+                <label for="title">Title</label>
+                <input type="text" id="title" required />
+                <label for="description">Description</label>
+                <textarea id="description"></textarea>
+                <button id="add_to_do_btn">
+                    Add To Do
+                </button>
+            </form>
+            <form id="sort_form">
+                <select id="select_sort">
+                    <option value="dc">Date croissant</option>
+                    <option value="dd">Date décroissant</option>
+                    <option value="ac">Alphabétique croissant</option>
+                    <option value="ad">Alphabétique décroissant</option>
+                </select>
+                <button>
+                    Sort
+                </button>
+            </form>
+        </div>
+        <div id="to_do_view">
+
+        </div>
+    </main>
+    <footer>
+        <p>Du contenu</p>
+    </footer>
+</body>
+</html>
